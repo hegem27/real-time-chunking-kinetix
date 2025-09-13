@@ -33,3 +33,4 @@ sharded over levels.
 4. Evaluate imitation learning policies: `uv run src/eval_flow.py --config.run-path ./logs-bc/<wandb-run-name> --output-dir <output-dir>`
     - This will load the checkpoints from step 3 and evaluate them for 2048 trials per level by default.
     - Currently, the script performs an exhaustive sweep over inference delay and execution horizon for all methods.
+
